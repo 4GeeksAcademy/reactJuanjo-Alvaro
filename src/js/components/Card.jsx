@@ -1,10 +1,10 @@
 
 const Card = ({image,title,description}) => {
     return ( 
-        <div className="card rounded m-2" style={{ width: "18rem" }}>
-            <img
+        <div className="card rounded" >
+            <img 
                 src={image}
-                className="card-img-top"
+                className="card-img-top img-fluid"
                 alt="imagen"
             />
             <div className="card-body">
